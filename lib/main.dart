@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:my_awesome_namer/pages/MyHome.dart';
-import 'package:my_awesome_namer/states/myappstate.dart';
+import 'package:my_awesome_namer/states/MyAppState.dart';
 import 'package:provider/provider.dart';
 
 main() => runApp(const MyApp());
