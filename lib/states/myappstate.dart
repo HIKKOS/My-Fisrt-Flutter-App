@@ -3,4 +3,8 @@ import 'package:flutter/material.dart';
 
 class MyAppState extends ChangeNotifier {
   var current = WordPair.random();
+  void getNext() {
+    current = WordPair.random();
+    notifyListeners();
+  }
 }
